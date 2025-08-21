@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "author": "Sarah Johnson",
+    "title": "The Rise of AI-Powered Design Tools",
+    "profile_img": "https://randomuser.me/api/portraits/women/44.jpg",
+    "cover_img": "https://picsum.photos/seed/ai-tools/600/300",
+    "reading_time": 7,
+    "hashtags": ["#AI", "#Design", "#Technology"],
+    "posted_date": "2025-08-15"
+  },
+  {
+    "id": 2,
+    "author": "David Miller",
+    "title": "Why Quantum Computing Will Change the Future",
+    "profile_img": "https://randomuser.me/api/portraits/men/36.jpg",
+    "cover_img": "https://picsum.photos/seed/quantum/600/300",
+    "reading_time": 10,
+    "hashtags": ["#QuantumComputing", "#FutureTech", "#Innovation"],
+    "posted_date": "2025-08-12"
+  },
+  {
+    "id": 3,
+    "author": "Emily Carter",
+    "title": "The Impact of 5G on Mobile Applications",
+    "profile_img": "https://randomuser.me/api/portraits/women/68.jpg",
+    "cover_img": "https://picsum.photos/seed/5g-mobile/600/300",
+    "reading_time": 6,
+    "hashtags": ["#5G", "#MobileApps", "#Connectivity"],
+    "posted_date": "2025-08-10"
+  },
+  {
+    "id": 4,
+    "author": "Michael Brown",
+    "title": "Exploring the Metaverse: Beyond Virtual Reality",
+    "profile_img": "https://randomuser.me/api/portraits/men/12.jpg",
+    "cover_img": "https://picsum.photos/seed/metaverse/600/300",
+    "reading_time": 8,
+    "hashtags": ["#Metaverse", "#VR", "#TechnologyTrends"],
+    "posted_date": "2025-08-05"
+  },
+  {
+    "id": 5,
+    "author": "Sophia Lee",
+    "title": "How Blockchain is Transforming Digital Security",
+    "profile_img": "https://randomuser.me/api/portraits/women/29.jpg",
+    "cover_img": "https://picsum.photos/seed/blockchain/600/300",
+    "reading_time": 9,
+    "hashtags": ["#Blockchain", "#Cybersecurity", "#TechInnovation"],
+    "posted_date": "2025-08-01"
+  }
+]
