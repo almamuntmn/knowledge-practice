@@ -1,8 +1,8 @@
 import { IoBookmark } from "react-icons/io5";
 
-const Blog = ({ blog, addBookmark }) => {
+const Blog = ({ blog, addBookmark, handleReadingTime }) => {
 
-    const { title, author, profile_img, cover_img, reading_time, hashtags, posted_date } = blog;
+    const {id, title, author, profile_img, cover_img, reading_time, hashtags, posted_date } = blog;
 
     return (
         <div>
@@ -28,7 +28,7 @@ const Blog = ({ blog, addBookmark }) => {
                     <div className="text-left text-gray-500 mt-4">
                         {hashtags.map(tag => <span key={tag}>{tag} </span>)}
                     </div>
-                    <button className="flex underline text-blue-700 mt-4">Make as Read</button>
+                    <button onClick={() => handleReadingTime(id, reading_time)} className="flex underline text-blue-700 mt-4">Make as Read</button>
                 </div>
             </div>
             <hr className="my-4 border-gray-300 border-1 mb-10" />

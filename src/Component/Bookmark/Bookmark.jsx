@@ -1,5 +1,5 @@
-const Bookmark = ({bookmark}) => {
-const{title}= bookmark
+const Bookmark = ({ bookmark }) => {
+    const { title } = bookmark
 
     return (
         <div className="p-2 bg-white shadow-sm rounded-md m-4">
